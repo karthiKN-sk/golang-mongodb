@@ -19,8 +19,6 @@ func main() {
 }
 
 func getSession() *mgo.Session {
-	// var uri string = "mongodb+srv://karthikeyanskalyan:KarthiSuvi@karthisuvilearning.isqslg6.mongodb.net/"
-	// var uri string = "mongodb://localhost:27017  ==mongodb://karthikeyanskalyan:KarthiSuvi@127.0.0.1:27017/golang-mongodb"
 
 	s, err := mgo.Dial("mongodb://localhost:27017/")
 
